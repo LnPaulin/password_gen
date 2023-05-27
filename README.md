@@ -59,6 +59,8 @@ To use the password generator, follow these steps:
 •  You will see the generated password
 
 •  You can generate a new password with different settings by changing the input values and clicking on the "Generate Password" button again.
+<br>
+
 <b>Screenshots</b>
 <p align="center">
 Installing requirements: <br/>
