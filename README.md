@@ -47,14 +47,14 @@ Now you can open your browser and go to http://127.0.0.1:8000/ to see the projec
 Usage
 To use the password generator, follow these steps:
 
-•  Enter the length of the password you want in the input box labeled "Length". The default value is 8.
+•  Select the length of the password you want.
 
-•  Choose the case of the password you want by clicking on one of the radio buttons labeled "Upper", "Lower" or "Mixed". The default value is "Mixed".
+•  Choose the case of the password you want by clicking on one of the radio buttons labeled "Upper".
 
-•  Choose whether you want the password to include special characters or not by clicking on the checkbox labeled "Special Characters". The default value is checked.
+•  Choose whether you want the password to include special characters and or numbers clicking on the checkbox labeled "Special Characters" and "Numbers"
 
 •  Click on the button labeled "Generate Password" to generate a random password based on your settings.
 
-•  You will see the generated password in a text box below the button. You can copy it to your clipboard by clicking on the button labeled "Copy".
+•  You will see the generated password
 
 •  You can generate a new password with different settings by changing the input values and clicking on the "Generate Password" button again.
