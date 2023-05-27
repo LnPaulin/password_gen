@@ -1,2 +1,60 @@
 # password_gen
-Password generator with django
+Password Generator
+This is a simple Django project that auto generates passwords for users based on their preferences. Users can specify the length, case and special characters of the password they want.
+
+Features
+•  Users can enter the desired length of the password (minimum 6, maximum 32).
+
+•  Users can choose whether they want the password to be upper case, lower case or mixed case.
+
+•  Users can choose whether they want the password to include special characters (such as !, @, #, etc.) or not.
+
+•  Users can copy the generated password to the clipboard with one click.
+
+•  Users can generate a new password with different settings without reloading the page.
+
+Installation
+
+Clone this repository to your desired location:
+
+git clone https://github.com/LnPaulin/Password_gen.git
+To run this project locally, you will need Python 3.6 or higher and Django 3.2 or higher installed on your machine. You can install Django using pip:
+
+pip install django
+All requirements for the project are found in the requirements file. run pip install requirements.txt to install them
+
+Then, clone this repository to your desired location:
+
+git clone https://github.com/LnPaulin/Password_gen.git
+
+Navigate to the project directory and run the following command to start the development server:
+
+python manage.py runserver
+
+You should see a message like this:
+
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 27, 2023 - 20:15:39
+Django version 3.2.4, using settings 'password_generator.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+
+Now you can open your browser and go to http://127.0.0.1:8000/ to see the project in action.
+
+Usage
+To use the password generator, follow these steps:
+
+•  Enter the length of the password you want in the input box labeled "Length". The default value is 8.
+
+•  Choose the case of the password you want by clicking on one of the radio buttons labeled "Upper", "Lower" or "Mixed". The default value is "Mixed".
+
+•  Choose whether you want the password to include special characters or not by clicking on the checkbox labeled "Special Characters". The default value is checked.
+
+•  Click on the button labeled "Generate Password" to generate a random password based on your settings.
+
+•  You will see the generated password in a text box below the button. You can copy it to your clipboard by clicking on the button labeled "Copy".
+
+•  You can generate a new password with different settings by changing the input values and clicking on the "Generate Password" button again.
