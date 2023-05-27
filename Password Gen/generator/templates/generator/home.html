@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <head>
+    <meta charset="utf-8">
+    <title>Home</title>
+  </head>
+<body >
+
+
+<div class="container text-center bg-light">
+  <br>
+  <form action="{% url 'about' %}">
+    <input type="submit" value="AboutUs" class="btn btn-primary">
+  </form>
+
+<h1>GitcoTech Password Generator</h1>
+  <hr>
+<br>
+<form action="{% url 'password' %}">
+    <select name="Length">
+      <option value="6">6</option>
+      <option value="7">7</option>
+      <option value="8">8</option>
+      <option value="9">9</option>
+      <option value="10">10</option>
+      <option value="11" selected="selected">11</option>
+    </select> Length
+<br>
+<br>
+    <input type="checkbox" name="Uppercase"> Upercase
+    <br>
+    <br>
+    <input type="checkbox" name="Numbers"> Numbers
+    <br>
+    <br>
+    <input type="checkbox" name="Sepcial"> Special Characters
+    <br>
+
+    <hr>
+    <input type="submit" value="Generate Password" class="btn btn-warning">
+</form>
+
+
+</div>
+</body>
