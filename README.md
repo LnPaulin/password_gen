@@ -70,6 +70,8 @@ Installing requirements: <br/>
 Running ther server: <br/>
 <img src="https://i.imgur.com/Z2Vehfc.png" width="80%" alt="django_server"/>
 <br /><br />
+
+  ✅ Test it out here https://password.gitcotech.net
   Project on Browser <br/>
 <img src="https://i.imgur.com/ivGW10w.png" width="80%" alt="dashboard"/>
 <br /><br />
